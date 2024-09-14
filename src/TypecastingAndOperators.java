@@ -11,5 +11,24 @@ public class TypecastingAndOperators {
 
         short shortNum = (short)doubleNum;
         System.out.println(shortNum); //Manual casting
+
+        //Arithmetic operator
+        int x = 5;
+        int y = 4;
+        System.out.println(x + y);
+        System.out.println(x - y);
+        System.out.println(x * y);
+        System.out.println(x / y);
+        System.out.println(x % y);
+        ++x; //Increases the value of a variable by 1
+        System.out.println(x);
+        --x; //Decreases the value of a variable by 1
+        System.out.println(x);
+        x +=5; // addition assignment
+        System.out.println(x);
+        System.out.println(x > y); //comparison operator, returns boolean
+        System.out.println(x);
+        System.out.println(x<12 || x==10); //logical operator
+
     }
 }
