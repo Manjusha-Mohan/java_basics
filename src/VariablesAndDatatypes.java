@@ -1,5 +1,22 @@
 public class VariablesAndDatatypes {
+    //instance variable
+    public String name;
+    public int number;
+    //constructor
+    public VariablesAndDatatypes(){
+        //initializing the variables
+        this.name = "Manjusha";
+        this.number = 100;
+    }
     public static void main(String[] args) {
+        //local variable
+        int var = 10;
+        System.out.println("Local variable " + var);
+        //creating object for VariablesAndDatatypes class
+        VariablesAndDatatypes obj1 = new VariablesAndDatatypes();
+        //displaying name
+        System.out.println("Instant variable Name: "+obj1.name);
+        System.out.println("Instant variable Number is: "+ obj1.number);
         //area of  a rectangle
         float length = 4.5f;
         float width = 5.2f;
@@ -41,7 +58,6 @@ public class VariablesAndDatatypes {
         //also used to store ASCII values
         char value = 65; // A
         System.out.println(value);
-
 
         //String
         String greeting = "Good Morning";
