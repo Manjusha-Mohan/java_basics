@@ -1,4 +1,4 @@
-public class Person {
+public class PersonClass {
     private String name; //restricted access
 
     //getter and setter
